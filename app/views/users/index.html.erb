@@ -1,0 +1,32 @@
+<h1>Users info</h1>
+<h2>Warning! You Are Watching Personal Data</h2>
+
+  <table class="table table-striped">
+    <thead>
+      <tr class="info">
+        <th>ID</th>
+        <th>Name</th>
+        <th>Last name</th>
+        <th>Email</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    <% @users.each do |u| %>
+      <tr>
+        <td><%= u.id %></td>
+        <td><%= u.name %></td>
+        <td><%= u.lastname %></td>
+        <td><%= u.email %></td>
+        <td><%= u.age %></td>
+        <td><%= u.gender %></td>
+        <td><%= link_to "View", user_path(u) %> | <%= link_to "Edit", edit_user_path(u) %>
+        </td>
+      </tr>
+    <% end %>
+
+    </tbody>
+  </table>

@@ -1,0 +1,57 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ html, body, .container{
+  height: 100%;
+ }
+ .container{
+  position: relative;
+ }
+.centr_wrap{
+  margin: 100px auto 0;
+  width: 400px;
+}
+input[type = "radio"]{
+  margin-right: 5px;
+}
+.btw{
+  padding: 0 15px;
+}
+.field{
+  margin-bottom: 18px;
+}
+.mini_mail{
+  font-size: 17px;
+}
+#error_explanation{
+  color: red;
+}
+#error_explanation h2{
+  font-size: 20px;
+}
+.error_msg{
+  color: red;
+  font-size: 20px;
+}
+footer {
+  margin-top: 100px;
+  width: 100%;
+  padding: 0 15px;
+  height: 60px;
+  border-radius: 4px;
+  line-height: 60px;
+  background-color: #f8f8f8;
+  border:solid 1px  #e7e7e7;
+}
