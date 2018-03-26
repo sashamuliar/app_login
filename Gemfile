@@ -10,9 +10,7 @@ end
 gem 'rails', '~> 5.1.5'
 # Use mysql as the database for Active Record
 
-group :development do
-  gem 'mysql2', '>= 0.3.18', '< 0.5'
-end
+gem 'mysql2', '>= 0.3.18', '< 0.5'
 group :production do
   gem 'pg'
 end
@@ -39,7 +37,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'cancancan', '~> 2.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
