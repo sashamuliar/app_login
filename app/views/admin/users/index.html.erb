@@ -1,0 +1,59 @@
+<h1>Users info</h1>
+<h2>Warning! You Are Watching Personal Data</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr class="info">
+      <th>ID</th>
+      <th>Name</th>
+      <th>Last name</th>
+      <th>Email</th>
+      <th>Age</th>
+      <th>Gender</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+
+  <% @users.each do |u| %>
+    <tr>
+      <td><%= u.id %></td>
+      <td><%= u.name %></td>
+      <td><%= u.lastname %></td>
+      <td><%= u.email %></td>
+      <td><%= u.age %></td>
+      <td><%= u.gender %></td>
+      <td><%= link_to "View", admin_user_path(u) %> | <%= link_to "Edit", edit_admin_user_path(u) %> | <a href="#" data-toggle="modal" data-target=<%="#myModal#{u}"%>>Delete</a>
+      </td>
+    </tr>
+  <% end %>
+
+  </tbody>
+</table>
+
+<p>new modal</p>
+<%= link_to 'Delete', data: {confirm: 'Are you sure?', commit: 'Sure!'} %>
+
+  <% @users.each do |u| %>
+
+<!-- Modal -->
+  <div class="modal fade" id=<%="myModal#{u.id}"%> role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Are You Sure??</h4>
+        </div>
+        <div class="modal-body">
+          <p>Press "Cancel" button if you don't</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="btn btn-danger" data-dismiss="modal">Cancel</a>
+          <%= link_to "Confirm", admin_user_path(u), method: :delete, class: "btn btn-primary" %>
+        </div>
+      </div>
+    </div>
+  </div>
+    <% end %>
+
+<%= link_to "Create New User", new_admin_user_path, class: "btn btn-primary create_new_user"  %>

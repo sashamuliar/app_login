@@ -1,0 +1,8 @@
+<h1>Personal info</h1>
+<hr>
+<h3><b>Name : </b><%= @user.name %></h3>
+<p><b>Last name : </b><%= @user.lastname %></p>
+<p><b>Email : </b><%= @user.email %></p>
+<p><b>Age : </b><%= @user.age %></p>
+<p><b>Gender : </b><%= @user.gender %></p>
+<%= link_to 'Edit my profile', edit_user_registration_path, :class => 'btn btn-primary' %>

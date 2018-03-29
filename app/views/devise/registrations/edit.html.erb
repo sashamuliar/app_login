@@ -27,12 +27,6 @@
     </div>
 
     <div class="field">
-      <%= f.label :current_password %> <br />
-      <%= f.password_field :current_password, autocomplete: "off", class: "form-control" %>
-      <i>(we need your current password to confirm your changes)</i>
-    </div>
-    
-    <div class="field">
       <%= f.label :name %><br />
       <%= f.text_field :name, class: "form-control" %>
     </div>
@@ -48,9 +42,9 @@
     </div>
 
     <div class="field">
-      
+
       <%= radio_button("user", "gender", "Male") %><%= f.label :male %><br />
-      
+
       <%= radio_button("user", "gender", "Female") %><%= f.label :female %><br />
    </div>
 
