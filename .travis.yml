@@ -3,6 +3,7 @@ rvm:
  - 2.5.0
 before_install:
   - gem install bundler
+  - mysql -e 'CREATE DATABASE myapp_test;'
 services:
   - mysql
 test:
