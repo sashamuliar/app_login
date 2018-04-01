@@ -7,6 +7,6 @@ services:
   - mysql
 test:
   adapter: mysql2
-  database: app_login_development
+  database: myapp_test
   username: travis
   encoding: utf8
