@@ -8,7 +8,7 @@ services:
   - mysql
 test:
   adapter: mysql2
-  database: app_login_development
+  database: app_login_test
   username: root
   password: root
   encoding: utf8
