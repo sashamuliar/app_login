@@ -1,5 +1,4 @@
 language: ruby
 rvm:
  - 2.5
-before_install:
-  - bash -c "yes | gem uninstall -i /home/travis/.rvm/gems/ruby-2.5.0@global rake"
+before_install: gem update bundler
