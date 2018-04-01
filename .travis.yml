@@ -1,6 +1,14 @@
 language: ruby
 rvm:
- - 2.5
+ - 2.5.0
 before_install:
   - gem update --system
   - gem install bundler
+services:
+  - mysql
+test:
+  adapter: mysql2
+  database: app_login_development
+  username: root
+  password: root
+  encoding: utf8
