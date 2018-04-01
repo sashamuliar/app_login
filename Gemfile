@@ -65,3 +65,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'data-confirm-modal'
+
+gem 'rspec', '~> 3.0'
