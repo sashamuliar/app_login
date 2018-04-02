@@ -7,8 +7,4 @@ before_install:
   - gem install bundler
   - mysql -e 'CREATE DATABASE app_login_test;'
 script:
-  - bundle exec rake rubocop app/models
-  - bundle exec rake rubocop app/controllers
-  - bundle exec rake rubocop app/views
-  - bundle exec rake rubocop app/db
-  - bundle exec rake rubocop app/config
+  - bundle exec rake rubocop
