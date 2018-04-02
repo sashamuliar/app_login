@@ -51,6 +51,8 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+
+  gem 'rubocop-ci', git: 'https://github.com/ad2games/rubocop-ci'
 end
 
 group :development do
