@@ -5,9 +5,4 @@ services:
   - mysql
 before_install:
   - gem install bundler
-  - mysql -e 'CREATE DATABASE myapp_test;'
-test:
-  adapter: mysql2
-  database: myapp_test
-  username: travis2
-  encoding: utf8
+  - mysql -e 'CREATE DATABASE app_login_test;'
