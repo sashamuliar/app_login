@@ -1,3 +1,4 @@
+
 Style/Encoding:
   Enabled: false
 Documentation:
@@ -6,4 +7,4 @@ AllCops:
   Exclude:
     - 'bin/**/*'
 Metrics/LineLength:
-  Max: 80
+  Max: 50
