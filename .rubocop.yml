@@ -1,8 +1,8 @@
-inherit_from: .rubocop_todo.yml
+inherit_from: ./config/default.yml
 Documentation:
   Enabled: false
 AllCops:
   Exclude:
     - 'bin/**/*'
 Metrics/LineLength:
-  Max: 50
+  Max: 90
