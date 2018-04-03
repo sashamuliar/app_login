@@ -1,4 +1,4 @@
-inherit_from: ./config/default.yml
+inherit_from: .rubocop_todo.yml
 Documentation:
   Enabled: false
 AllCops:
