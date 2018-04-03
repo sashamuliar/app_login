@@ -1,4 +1,4 @@
-inherit_from: ../.rubocop.yml
+inherit_from: .rubocop_todo.yml
 
 Style/Encoding:
   Enabled: false
@@ -8,4 +8,4 @@ AllCops:
   Exclude:
     - 'bin/**/*'
 Metrics/LineLength:
-  Max: 50
+  Max: 80
