@@ -34,10 +34,14 @@ group :development, :test do
   gem 'selenium-webdriver'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> pok
 =======
   gem 'rubocop', require: false
 >>>>>>> pokl
+=======
+  gem 'rubocop-ci', git: 'https://github.com/ad2games/rubocop-ci'
+>>>>>>> suck
 end
 
 group :development do
