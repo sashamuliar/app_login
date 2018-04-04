@@ -33,7 +33,11 @@ group :development, :test do
 =======
   gem 'selenium-webdriver'
 
+<<<<<<< HEAD
 >>>>>>> pok
+=======
+  gem 'rubocop', require: false
+>>>>>>> pokl
 end
 
 group :development do
