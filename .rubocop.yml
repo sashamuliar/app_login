@@ -4,5 +4,5 @@ Style/FrozenStringLiteralComment:
 Metrics/LineLength:
   Max: 87
 AllCops:
-  Include:
-    - 'app/**/*'
+  Exclude:
+    - 'bin/*'
