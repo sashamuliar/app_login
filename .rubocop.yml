@@ -5,6 +5,6 @@ Metrics/LineLength:
   Max: 87
 AllCops:
   Include:
-    - '/app_login' 
+    - 'app_login/**/*'
   Exclude:
-    - '/bin/**/*'
+    - 'app_login/bin/**/*'
