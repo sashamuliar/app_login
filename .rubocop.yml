@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-AllCops:
-=======
 Style/FrozenStringLiteralComment:
->>>>>>> popo
   Exclude:
     - 'bin/**/*'
     - 'vendor/**/*'
@@ -15,11 +11,7 @@ Documentation:
 Style/FrozenStringLiteralComment:
   Enabled: false
 Metrics/LineLength:
-<<<<<<< HEAD
-  Max: 110
-=======
   Max: 87
 AllCops:
   Exclude:
     - 'bin/**/*' 
->>>>>>> popo
