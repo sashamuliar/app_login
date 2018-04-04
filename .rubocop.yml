@@ -3,8 +3,3 @@ Style/FrozenStringLiteralComment:
     - 'Gemfile'
 Metrics/LineLength:
   Max: 87
-AllCops:
-  Include:
-    - '/**/*' 
-  Exclude:
-    - '/bin/**/*'
