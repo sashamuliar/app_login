@@ -16,4 +16,4 @@ AllCops:
   Include:
     - 'app/**/*'
   Exclude:
-    - 'bin/**/*'
+    - '/bin'
