@@ -4,7 +4,12 @@ rvm:
 services:
   - mysql
 before_install:
+  - gem install rubocop
   - gem install bundler
   - mysql -e 'CREATE DATABASE app_login_test;'
 script:
+<<<<<<< HEAD
   - bundle exec rubocop -d
+=======
+  - bundle exec rake rubocop
+>>>>>>> pok

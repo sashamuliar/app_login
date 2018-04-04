@@ -11,7 +11,7 @@ Documentation:
 Style/FrozenStringLiteralComment:
   Enabled: false
 Metrics/LineLength:
-  Max: 87
+  Max: 120
 AllCops:
   Exclude:
     - 'bin/*'
