@@ -2,7 +2,7 @@ Style/FrozenStringLiteralComment:
   Exclude:
     - 'Gemfile'
 Metrics/LineLength:
-  Max: 87
+  Max: 120
 AllCops:
   Exclude:
     - 'bin/*'

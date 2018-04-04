@@ -52,7 +52,6 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
 
-  gem 'rubocop-ci', git: 'https://github.com/ad2games/rubocop-ci'
 end
 
 group :development do
