@@ -15,5 +15,3 @@ Metrics/LineLength:
 AllCops:
   Include:
     - 'app/**/*'
-  Exclude:
-    - '/bin'
