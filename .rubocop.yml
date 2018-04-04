@@ -1,2 +1,6 @@
+inherit_from: .rubocop_todo.yml
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - 'Gemfile'
 Metrics/LineLength:
   Max: 87
