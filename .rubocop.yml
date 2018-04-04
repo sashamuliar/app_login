@@ -5,4 +5,4 @@ Metrics/LineLength:
   Max: 87
 AllCops:
   Exclude:
-    - 'bin/**/*' 
+    - '/bin/**/*' 
