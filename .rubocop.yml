@@ -1,7 +1,13 @@
-inherit_from: .rubocop_todo.yml
-
-Style/FrozenStringLiteralComment:
+AllCops:
   Exclude:
-    - 'Gemfile'
+    - 'bin/**/*'
+    - 'vendor/**/*'
+    - 'db/migrate'
+Style/Encoding:
+  Enabled: false
+Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
 Metrics/LineLength:
   Max: 87
