@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root 'users#index'
   devise_for :users, controllers: { sessions: 'users/sessions', registrations: 'users/registrations' }
-  resources :users, only: [ :show, :index ]
+  resources :users, only: %i[show index]
 
   namespace :admin do
     resources :users

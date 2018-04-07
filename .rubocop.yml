@@ -3,6 +3,7 @@ AllCops:
     - 'bin/**/*'
     - 'vendor/**/*'
     - 'db/migrate'
+    - 'db/schema.rb'
 Style/Encoding:
   Enabled: false
 Documentation:
@@ -11,4 +12,3 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 Metrics/LineLength:
   Max: 110
-  
