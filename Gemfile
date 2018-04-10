@@ -27,21 +27,8 @@ gem 'uglifier', '>= 1.3.0'
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'capybara', '~> 2.13'
-<<<<<<< HEAD
   gem 'rubocop-ci', git: 'https://github.com/ad2games/rubocop-ci'
   gem 'selenium-webdriver'
-=======
-  gem 'selenium-webdriver'
-
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> pok
-=======
-  gem 'rubocop', require: false
->>>>>>> pokl
-=======
-  gem 'rubocop-ci', git: 'https://github.com/ad2games/rubocop-ci'
->>>>>>> suck
 end
 
 group :development do

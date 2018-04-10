@@ -9,7 +9,10 @@ before_install:
   - mysql -e 'CREATE DATABASE app_login_test;'
 script:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - bundle exec rubocop -d
 =======
+=======
+>>>>>>> 7c24de8de5912945c09d06f769add996e6488802
   - bundle exec rake rubocop
 >>>>>>> pok
